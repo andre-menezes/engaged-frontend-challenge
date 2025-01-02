@@ -1,13 +1,11 @@
-// helpers/lazyLoading.ts
 import * as views from '@/views';
 
-// CORRIGIR AQUI
-export function lazyLoading(viewName: string) {
-	const component = views[`${viewName}View`];
-
-	if (!component) {
-		throw new Error(`View not found: ${viewName}`);
-	}
-
-	return component;
+export function lazyLoad(view: keyof typeof views) {
+  return () => {
+    const component = views[view];
+    if (!component) {
+      return views.NotFound;
+    }
+    return component;
+  };
 }

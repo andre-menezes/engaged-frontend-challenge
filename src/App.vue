@@ -10,7 +10,5 @@
 
 	const router = useRouter();
 
-	const defaultLayout = 'default';
-	console.log('aqui', router);
-	const layout = computed(() => `${router.currentRoute.value.meta.layout} || ${defaultLayout}-layout`);
+	const layout = computed(() => router.currentRoute.value.meta.layout || 'default');
 </script>
