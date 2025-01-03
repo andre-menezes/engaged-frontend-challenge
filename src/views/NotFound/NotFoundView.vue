@@ -1,6 +1,6 @@
 <template>
-  <h1>404 - Page Not Found</h1>
-  <button @click="goBack">back</button>
+  <h2>{{ $t(`notFound.title`) }}</h2>
+  <button @click="goBack">{{ $t(`action.back`) }}</button>
 </template>
 
 <script setup lang="ts">

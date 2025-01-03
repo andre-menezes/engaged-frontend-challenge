@@ -1,0 +1,18 @@
+{
+  "footer": {
+    "developedBy": "Desenvolvido por {name}, desde 2021.",
+    "rights": "Todos os direitos reservados."
+  },
+  "home": {
+    "title": "Página Inicial"
+  },
+  "about": {
+    "title": "Página Sobre"
+  },
+  "notFound": {
+    "title": "Página Não Encontrada"
+  },
+  "action": {
+    "back": "voltar"
+  }
+}
