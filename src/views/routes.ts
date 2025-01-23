@@ -12,7 +12,7 @@ export default [
 	{
 		path: '/about',
 		name: 'About',
-		component: lazyLoad('AboutView'),
+		component: import('@/views').then((m) => m.AboutView),
 		meta: {
 			layout: 'default',
 		},
@@ -20,7 +20,7 @@ export default [
 	{
 		path: '/:pathMatch(.*)*',
 		name: 'NotFound',
-		component: lazyLoad('NotFound'),
+		component: import('@/views').then((m) => m.NotFound),
 		meta: {
 			layout: 'empty',
 		},
