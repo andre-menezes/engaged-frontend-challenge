@@ -1,10 +1,8 @@
-import { lazyLoading } from '@/helpers/functions';
-
 export default [
 	{
 		path: '/',
 		name: 'Home',
-		component: lazyLoading('HomeView'),
+		component: import('@/views').then((m) => m.HomeView),
 		meta: {
 			layout: 'default',
 		},
