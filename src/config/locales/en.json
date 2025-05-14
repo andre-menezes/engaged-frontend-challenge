@@ -1,18 +1,22 @@
 {
-  "footer": {
-    "developedBy": "Developed by {name}, since 2021.",
-    "rights": "All rights reserved."
-  },
-  "home": {
-    "title": "Home Page"
-  },
-  "about": {
-    "title": "About Page"
-  },
-  "notFound": {
-    "title": "Not Found Page"
-  },
-  "action": {
-    "back": "go back"
-  }
+	"footer": {
+		"developedBy": "Developed by {name}.",
+		"rights": "All rights reserved."
+	},
+	"filter": {
+		"title": "Search character",
+		"placeholder": "Search by name..."
+	},
+	"home": {
+		"title": "Rick And Morty Characters"
+	},
+	"about": {
+		"title": "About Page"
+	},
+	"notFound": {
+		"title": "Not Found Page"
+	},
+	"action": {
+		"back": "go back"
+	}
 }

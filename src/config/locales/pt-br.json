@@ -1,18 +1,22 @@
 {
-  "footer": {
-    "developedBy": "Desenvolvido por {name}, desde 2021.",
-    "rights": "Todos os direitos reservados."
-  },
-  "home": {
-    "title": "Página Inicial"
-  },
-  "about": {
-    "title": "Página Sobre"
-  },
-  "notFound": {
-    "title": "Página Não Encontrada"
-  },
-  "action": {
-    "back": "voltar"
-  }
+	"footer": {
+		"developedBy": "Desenvolvido por {name}.",
+		"rights": "Todos os direitos reservados."
+	},
+	"filter": {
+		"title": "Buscar personagem",
+		"placeholder": "Persquisar pelo nome..."
+	},
+	"home": {
+		"title": "Personagens de Rick And Morty"
+	},
+	"about": {
+		"title": "Página Sobre"
+	},
+	"notFound": {
+		"title": "Página Não Encontrada"
+	},
+	"action": {
+		"back": "voltar"
+	}
 }
