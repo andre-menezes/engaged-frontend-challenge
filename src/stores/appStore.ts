@@ -14,7 +14,7 @@ export const useAppStore = defineStore('app', {
 	actions: {
 		changeLocale() {
 			this.locale = this.locale === 'en' ? 'pt' : 'en';
-			i18n.global.locale = this.locale as Locales;
+			i18n.global.locale.value = this.locale as Locales;
 		},
 	},
 	getters: {

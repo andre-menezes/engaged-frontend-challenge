@@ -14,7 +14,8 @@
 		"resolveJsonModule": true,
 		"baseUrl": ".",
 		"paths": {
-			"@/*": ["src/*"]
+			"@/*": ["src/*"],
+			"@locales/*": ["src/config/locales/*"]
 		},
 		"types": ["vite/client"]
 	},

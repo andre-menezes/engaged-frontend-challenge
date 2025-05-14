@@ -19,6 +19,7 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			'@': '/src',
+			'@locales': '/src/config/locales',
 		},
 	},
 	server: {
